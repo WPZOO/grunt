@@ -1,8 +1,5 @@
 // https://github.com/gruntjs/grunt-contrib-cssmin
 module.exports = {
-	options: {
-		report: 'gzip'
-	},
 	style: {
 		expand: true,
 		cwd: '<%= pkg.directories.css %>',
