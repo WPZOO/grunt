@@ -10,7 +10,7 @@ build:
 'build:css':
   - 'newer:sass'
   - 'newer:wpcss'
-  - 'newer:cssjanus'
+  - 'newer:rtlcss:theme'
   - 'newer:cssmin'
 # Optimise images from source to production
 'build:images':
