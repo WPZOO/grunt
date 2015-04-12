@@ -4,7 +4,7 @@ module.exports = {
 		options: {
 			domainPath: '<%= pkg.theme.domainpath %>',
 			updatePoFiles: true,
-			exclude: ['build/.*'],
+			exclude: ['build/.*', 'node_modules/.*'],
 			type: '<%= pkg.pot.type %>',
 			potHeaders: {
 				poedit: true,

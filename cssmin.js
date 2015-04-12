@@ -1,6 +1,6 @@
 // https://github.com/gruntjs/grunt-contrib-cssmin
 module.exports = {
-	style: {
+	theme: {
 		expand: true,
 		cwd: '<%= pkg.directories.css %>',
 		src: [

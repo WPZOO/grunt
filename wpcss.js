@@ -3,7 +3,7 @@ module.exports = {
 	options: {
 		config: 'alphabetical'
 	},
-	css: {
+	theme: {
 		expand: true,
 		src: ['style.css']
 	}

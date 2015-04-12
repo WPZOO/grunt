@@ -1,27 +1,28 @@
 # Grunt aliases
 ---
 # Build everything
-build:
-  - 'build:css'
-  - 'build:images'
-  - 'build:js'
-  - 'build:i18n'
+build:theme:
+  - 'build:theme:css'
+  - 'build:theme:images'
+  - 'build:theme:js'
+  - 'build:theme:i18n'
 # Build CSS from Scss to production
-'build:css':
-  - 'newer:sass'
-  - 'newer:wpcss'
+'build:theme:css':
+  - 'newer:sass:theme'
+  - 'newer:wpcss:theme'
   - 'newer:rtlcss:theme'
-  - 'newer:cssmin'
+  - 'newer:cssmin:theme'
 # Optimise images from source to production
-'build:images':
+'build:theme:images':
   - 'newer:imagemin'
 # Build JavaScript from assets to production
-'build:js':
-  - 'newer:uglify'
+'build:theme:js':
+  - 'newer:uglify:theme'
 # Build internationalisation features
-'build:i18n':
+'build:theme:i18n':
   - 'checktextdomain'
   - 'makepot'
+  - 'exec:update_theme_po_wti'
   - 'newer:potomo'
 # Default task
 default:
