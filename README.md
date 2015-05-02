@@ -1,4 +1,4 @@
-== Standard Grunt system for multiple pojects
+### Standard Grunt system for multiple pojects
 
 1. Clone this repo to whichever project you need.
 2. Create a `Gruntfile.js` with the standard
@@ -80,15 +80,16 @@ The `package.json` is where the project variables are defined. An example is:
     "load-grunt-config": "*",
     "grunt-checktextdomain": "*",
     "grunt-contrib-imagemin": "*",
-    "grunt-contrib-sass": "*",
+    "grunt-sass": "*",
     "grunt-wp-css": "*",
-    "grunt-cssjanus": "*",
+    "grunt-rtlcss": "*",
     "grunt-contrib-cssmin": "*",
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
     "grunt-wp-i18n": "*",
     "grunt-newer": "*",
     "grunt-potomo": "*",
+    "grunt-banner": "*",
     "grunt-exec": "*"
   }
 }

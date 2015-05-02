@@ -10,6 +10,7 @@ build:theme:
 'build:theme:css':
   - 'newer:sass:theme'
   - 'newer:wpcss:theme'
+  - 'newer:usebanner:theme'
   - 'newer:rtlcss:theme'
   - 'newer:cssmin:theme'
 # Optimise images from source to production
@@ -24,6 +25,13 @@ build:theme:
   - 'makepot'
   - 'exec:update_theme_po_wti'
   - 'newer:potomo'
+# Build WPZOO Styles
+build:wpzoo:
+  - 'sass:wpzoo'
+  - 'concat:wpzoo'
+  - 'wpcss:theme'
+  - 'usebanner:wpzoo'
+  - 'cssmin:wpzoo'
 # Default task
 default:
   - 'watch'

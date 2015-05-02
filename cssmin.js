@@ -10,4 +10,11 @@ module.exports = {
 		dest: '<%= pkg.directories.css %>',
 		ext: '.min.css'
 	},
+	wpzoo: {
+		files: {
+			'style.min.css': [
+				'style.css'
+			]
+		}
+	}
 };
