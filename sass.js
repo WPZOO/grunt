@@ -1,10 +1,7 @@
 // https://github.com/gruntjs/grunt-contrib-sass
 module.exports = {
 	options: {
-		force: true,
-		style: 'expanded',
-		trace: true,
-		lineNumbers: true
+		sourcemap: 'none'
 	},
 	theme: {
 		options: {
@@ -14,7 +11,7 @@ module.exports = {
 				expand: true,
 				cwd: '<%= pkg.directories.sass %>',
 				src: 'style.scss',
-				dest: '',
+				dest: '<%= pkg.directories.css %>',
 				ext: '.css'
 			}
 		]
@@ -27,15 +24,14 @@ module.exports = {
 				expand: true,
 				cwd: '<%= pkg.directories.sass %>',
 				src: 'style.scss',
-				dest: 'css',
+				dest: '<%= pkg.directories.css %>',
 				ext: '.css'
 			}
 		]
 	}
 //	editorstyle: {
 //		options: {
-//			sourcemap: 'none',
-//			lineNumbers: false
+//			sourcemap: 'none'
 //		},
 //		files: [
 //			{

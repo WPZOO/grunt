@@ -80,7 +80,7 @@ The `package.json` is where the project variables are defined. An example is:
     "load-grunt-config": "*",
     "grunt-checktextdomain": "*",
     "grunt-contrib-imagemin": "*",
-    "grunt-sass": "*",
+    "grunt-contrib-sass": "*",
     "grunt-wp-css": "*",
     "grunt-rtlcss": "*",
     "grunt-contrib-cssmin": "*",
