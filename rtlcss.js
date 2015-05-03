@@ -12,8 +12,14 @@ module.exports = {
 			// extend rtlcss properties
 			properties:[],
 		},
-		expand : true,
-		src: 'style.css',
-		dest: 'style-rtl.css'
+		files: [
+			{
+				expand: true,
+				cwd: '<%= pkg.directories.css %>',
+				src: 'style.css',
+				dest: '<%= pkg.directories.css %>',
+				ext: '-rtl.css'
+			}
+		]
 	}
 };
