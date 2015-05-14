@@ -8,11 +8,11 @@ build:theme:
   - 'build:theme:i18n'
 # Build CSS from Scss to production
 'build:theme:css':
-  - 'newer:sass:theme'
-  - 'newer:wpcss:theme'
-  - 'newer:usebanner:theme'
-  - 'newer:rtlcss:theme'
-  - 'newer:cssmin:theme'
+  - 'sass:theme'
+  - 'wpcss:theme'
+  - 'usebanner:theme'
+  - 'rtlcss:theme'
+  - 'cssmin:theme'
 # Optimise images from source to production
 'build:theme:images':
   - 'newer:imagemin'
