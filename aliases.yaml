@@ -24,7 +24,7 @@ build:theme:
   - 'checktextdomain'
   - 'makepot'
   - 'exec:update_theme_po_wti'
-  - 'newer:potomo'
+  - 'exec:po2mo'
 # Build WPZOO Styles
 build:wpzoo:
   - 'sass:wpzoo'

@@ -4,5 +4,9 @@ module.exports = {
 	update_theme_po_wti: {
 		cmd: 'wti pull',
 		cwd: 'languages/'
+	},
+	po2mo: {
+		cmd: '../grunt/po2mo.sh',
+		cwd: 'languages/'
 	}
 };
