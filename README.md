@@ -1,15 +1,15 @@
-## Standard Grunt system for multiple pojects
+# Standard Grunt System for Multiple Projects
 
 1. Clone this repo to whichever project you need.
 2. Create a `Gruntfile.js` with the standard
 3. Define the variables in the `package.json`
 
-### Requirements
-You need to have Ruby installed (Included in OSX, [Windows Installer](http://rubyinstaller.org/)) for two of the tasks `sass` and `exec`
-- Sass requires Sass gem `3.4.0` which can be installed by running `gem install sass` in cmd
-- The exec task runs `wti pull` to update the tansaltions which requires the `web_translate_it` gem which can be installed by running `gem install web_translate_it` in cmd.
+## Requirements
+You need to have Ruby installed (Included in OSX, [Windows Installer](http://rubyinstaller.org/)) for two of the tasks `sass` and `exec`.
+- Sass requires the Sass gem `3.4.0` which can be installed by running `gem install sass` in cmd
+- The exec task runs `wti pull` to update the translations which requires the `web_translate_it` gem which can be installed by running `gem install web_translate_it` in cmd.
 
-### Sample Gruntfile.js
+## Sample `Gruntfile.js`
 
 The `Gruntfile.js` is standard and can be used the same across multiple projects.
 ```js
@@ -24,7 +24,7 @@ module.exports = function( grunt ) {
 };
 ```
 
-### Sample package.json
+## Sample `package.json`
 
 The `package.json` is where the project variables are defined. An example is:
 ```js
