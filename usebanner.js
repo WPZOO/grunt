@@ -3,7 +3,7 @@ module.exports = {
 	theme: {
 		options: {
 			position: 'top',
-			banner: '/*\n' +
+			banner: '/*!\n' +
 				'Theme Name:  <%= pkg.theme.name %>\n' +
 				'Theme URI:   <%= pkg.theme.uri %>\n' +
 				'Description: <%= pkg.theme.description %>\n' +
@@ -24,7 +24,7 @@ module.exports = {
 	wpzoo: {
 		options: {
 			position: 'top',
-			banner: '/*\n' +
+			banner: '/!*\n' +
 				'Theme Name:  <%= pkg.theme.name %>\n' +
 				'Theme URI:   <%= pkg.theme.uri %>\n' +
 				'Description: <%= pkg.theme.description %>\n' +
