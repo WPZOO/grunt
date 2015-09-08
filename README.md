@@ -56,7 +56,8 @@ The `package.json` is where the project variables are defined. An example is:
     "js": "./js",
     "sass": "./sass",
     "css": "",
-    "build": "./build"
+    "build": "./build",
+    "lite": "../penguin/"
   },
   "theme": {
     "name": "PENGU!N Gold",
@@ -88,6 +89,7 @@ The `package.json` is where the project variables are defined. An example is:
     "grunt": "*",
     "load-grunt-config": "*",
     "grunt-checktextdomain": "*",
+    "grunt-contrib-copy": "^0.8.1",
     "grunt-contrib-imagemin": "*",
     "grunt-contrib-sass": "*",
     "grunt-wp-css": "*",
