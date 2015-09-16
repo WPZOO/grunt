@@ -86,22 +86,23 @@ The `package.json` is where the project variables are defined. An example is:
     "url": "https://github.com/WPZOO/penguin-gold.git"
   },
   "devDependencies": {
-    "grunt": "*",
-    "load-grunt-config": "*",
-    "grunt-checktextdomain": "*",
-    "grunt-contrib-copy": "^0.8.1",
+    "grunt":                  "*",
+    "grunt-banner":           "*",
+    "grunt-checktextdomain":  "*",
+    "grunt-contrib-copy":     "*",
+    "grunt-contrib-cssmin":   "*",
     "grunt-contrib-imagemin": "*",
-    "grunt-contrib-sass": "*",
-    "grunt-wp-css": "*",
-    "grunt-rtlcss": "*",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-wp-i18n": "*",
-    "grunt-newer": "*",
-    "grunt-potomo": "*",
-    "grunt-banner": "*",
-    "grunt-exec": "*"
+    "grunt-contrib-sass":     "*",
+    "grunt-contrib-uglify":   "*",
+    "grunt-contrib-watch":    "*",
+    "grunt-exec":             "*",
+    "grunt-newer":            "*",
+    "grunt-potomo":           "*",
+    "grunt-replace":          "*",
+    "grunt-rtlcss":           "*",
+    "grunt-wp-css":           "*",
+    "grunt-wp-i18n":          "*",
+    "load-grunt-config":      "*"
   }
 }
 ```
