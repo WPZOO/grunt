@@ -8,6 +8,7 @@ module.exports = {
 			type: '<%= pkg.pot.type %>',
 			potHeaders: {
 				poedit: true,
+				'x-poedit-keywordslist': true,
 				'report-msgid-bugs-to': '<%= pkg.pot.reportmsgidbugsto %>',
 				'last-translator': '<%= pkg.pot.lasttranslator %>',
 				'language-team': '<%= pkg.pot.languageteam %>',

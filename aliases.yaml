@@ -22,8 +22,8 @@ build:theme:
 # Build internationalisation features
 'build:theme:i18n':
   - 'checktextdomain'
-  - 'makepot'
   - 'exec:update_theme_po_wti'
+  - 'makepot'
   - 'exec:po2mo'
 # Build WPZOO Styles
 build:wpzoo:

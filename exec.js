@@ -6,7 +6,7 @@ module.exports = {
 		cwd: 'languages/'
 	},
 	po2mo: {
-		cmd: '../grunt/po2mo.sh',
+		cmd: 'bash ../grunt/po2mo.sh',
 		cwd: 'languages/'
 	}
 };

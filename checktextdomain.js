@@ -28,6 +28,7 @@ module.exports = {
 		src: [
 			'**/*.php', // Include all files
 			'!node_modules/**', // Exclude node_modules/
+			'!.sass-cache/**'
 		]
 	}
 };
