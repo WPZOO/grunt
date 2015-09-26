@@ -97,7 +97,6 @@ The `package.json` is where the project variables are defined. An example is:
     "grunt-contrib-watch":    "*",
     "grunt-exec":             "*",
     "grunt-newer":            "*",
-    "grunt-potomo":           "*",
     "grunt-replace":          "*",
     "grunt-rtlcss":           "*",
     "grunt-wp-css":           "*",
