@@ -32,6 +32,10 @@ build:wpzoo:
   - 'wpcss:theme'
   - 'usebanner:wpzoo'
   - 'cssmin:wpzoo'
+# Build Penguin Lite
+build:penguin_lite:
+  - 'replace:penguin_lite'
+  - 'copy:theme_lite'
 # Default task
 default:
   - 'watch'

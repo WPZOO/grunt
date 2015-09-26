@@ -32,9 +32,21 @@ module.exports = {
 					replacement: 'PENGU!N'
 				},
 				{
-					match: /\/\*[\n\s\r\*]{5}PENGU!N extras[^]+extras-penguin-gold\.php';[\n\s\r]{2}/,
+					match: /require get_template_directory\(\) \. '\/inc\/extras-penguin-gold\.php';[\n\s\r]{1}/,
 					replacement: ''
-				}
+				},
+				{
+					match: /require get_template_directory\(\) \. '\/inc\/customizer-options-gold\.php';[\n\s\r]{1}/,
+					replacement: ''
+				},
+				{
+					match: /require get_template_directory\(\) \. '\/inc\/customizer-styles-gold\.php';[\n\s\r]{1}/,
+					replacement: ''
+				},
+//				{
+//					match: /\/\*[\n\s\r\*]{5}PENGU!N extras[^]+extras-penguin-gold\.php';[\n\s\r]{2}/,
+//					replacement: ''
+//				}
 			]
 		}
 	}
