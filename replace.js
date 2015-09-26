@@ -16,7 +16,7 @@ module.exports = {
 				'!Gruntfile.js',
 				'!screenshot.png',
 				'!page-fullwidth.php',
-				'!inc/extras-penguin-gold.php'
+				'!inc/extras-penguin-gold.php',
 				'!inc/customizer-options-gold.php',
 				'!inc/customizer-styles-gold.php'
 			],
