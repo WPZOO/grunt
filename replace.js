@@ -9,6 +9,7 @@ module.exports = {
 				'!node_modules/**',
 				'!grunt/**',
 				'!sass/**',
+				'!fonts/**',
 				'!.gitignore',
 				'!.gitmodules',
 				'!package.json',

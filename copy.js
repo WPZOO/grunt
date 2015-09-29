@@ -3,7 +3,8 @@ module.exports = {
 	theme_lite: {
 		expand: true,
 		src: [
-			'screenshot.png'
+			'screenshot.png',
+			'fonts/**'
 		],
 		dest: '<%= pkg.directories.lite %>'
 	}
