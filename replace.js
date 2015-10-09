@@ -10,6 +10,7 @@ module.exports = {
 				'!grunt/**',
 				'!sass/**',
 				'!fonts/**',
+				'!**/*.min.*',
 				'!.gitignore',
 				'!.gitmodules',
 				'!package.json',
@@ -31,6 +32,18 @@ module.exports = {
 				{
 					match: /PENGU!N Gold/g,
 					replacement: 'PENGU!N'
+				},
+				{
+					match: /penguin-gold/g,
+					replacement: 'penguin'
+				},
+				{
+					match: /' \. \$suffix \. '/g,
+					replacement: ''
+				},
+				{
+					match: /\t\$minified[^]+\( 1 == \$minified \) \? '\.min' : '';[\n\s\r]{2}/g,
+					replacement: ''
 				},
 				{
 					match: /require get_template_directory\(\) \. '\/inc\/extras-penguin-gold\.php';[\n\s\r]{1}/,
