@@ -4,7 +4,16 @@ module.exports = {
 		options: {
 			domainPath: '<%= pkg.theme.domainpath %>',
 			updatePoFiles: true,
-			exclude: ['build/.*', 'node_modules/.*'],
+			potFilename: '<%= pkg.theme.textdomain %>.pot',
+			exclude: [
+				//'.*',
+				'^((?!gold).)*.php$',
+				'.sass-cache/.+',
+				'.git/.+',
+				'node_modules/.*',
+				'template-parts/.*',
+				'build/.*'
+			],
 			type: '<%= pkg.pot.type %>',
 			potHeaders: {
 				poedit: true,
