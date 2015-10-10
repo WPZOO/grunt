@@ -17,7 +17,8 @@ module.exports = {
 				'!composer.json',
 				'!Gruntfile.js',
 				'!screenshot.png',
-				'!page-fullwidth.php',
+				'!**/*{mo,po,pot}',
+				'!page-templates/page-fullwidth.php',
 				'!inc/extras-penguin-gold.php',
 				'!inc/customizer-options-gold.php',
 				'!inc/customizer-styles-gold.php'
@@ -39,6 +40,10 @@ module.exports = {
 				},
 				{
 					match: /' \. \$suffix \. '/g,
+					replacement: ''
+				},
+				{
+					match: /\tload_theme_textdomain\( 'penguin-gold', .*'\/languages' \);[\n\s\r]{1}/g,
 					replacement: ''
 				},
 				{
