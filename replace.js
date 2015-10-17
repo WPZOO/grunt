@@ -10,6 +10,7 @@ module.exports = {
 				'!grunt/**',
 				'!sass/**',
 				'!fonts/**',
+				'!updater/**',
 				'!**/*.min.*',
 				'!.gitignore',
 				'!.gitmodules',
