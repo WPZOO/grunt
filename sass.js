@@ -10,7 +10,7 @@ module.exports = {
 			{
 				expand: true,
 				cwd: '<%= pkg.directories.sass %>',
-				src: 'style.scss',
+				src: '*.scss',
 				dest: '<%= pkg.directories.css %>',
 				ext: '.css'
 			}
