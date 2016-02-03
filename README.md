@@ -86,6 +86,7 @@ The `package.json` is where the project variables are defined. An example is:
     "url": "https://github.com/WPZOO/penguin-gold.git"
   },
   "devDependencies": {
+    "autoprefixer":           "*",
     "grunt":                  "*",
     "grunt-banner":           "*",
     "grunt-checktextdomain":  "*",
@@ -101,6 +102,7 @@ The `package.json` is where the project variables are defined. An example is:
     "grunt-rtlcss":           "*",
     "grunt-wp-css":           "*",
     "grunt-wp-i18n":          "*",
+    "grunt-postcss":          "*",
     "load-grunt-config":      "*"
   }
 }
