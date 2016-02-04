@@ -9,6 +9,7 @@ build:theme:
 # Build CSS from Scss to production
 'build:theme:css':
   - 'sass:theme'
+  - 'postcss:theme'
   - 'wpcss:theme'
   - 'usebanner:theme'
   - 'rtlcss:theme'
@@ -28,6 +29,7 @@ build:theme:
 # Build WPZOO Styles
 build:wpzoo:
   - 'sass:wpzoo'
+  - 'postcss:wpzoo'
   - 'concat:wpzoo'
   - 'wpcss:theme'
   - 'usebanner:wpzoo'
