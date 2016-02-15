@@ -29,10 +29,10 @@ build:theme:
 # Build WPZOO Styles
 build:wpzoo:
   - 'sass:wpzoo'
-  - 'postcss:wpzoo'
   - 'concat:wpzoo'
   - 'wpcss:theme'
   - 'usebanner:wpzoo'
+  - 'postcss:wpzoo'
   - 'cssmin:wpzoo'
 # Build Penguin Lite
 build:penguin_lite:
