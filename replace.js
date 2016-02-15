@@ -52,7 +52,7 @@ module.exports = {
 					replacement: ''
 				},
 				{
-					match: /\tif \( 1 == \$fluidvids, true \) {[\n\s\r]{2}([^]+?)\t}[\n\s\r]{1}/g,
+					match: /\tif \( 1 == \$fluidvids \) {[\n\s\r]{2}([^]+?)\t}[\n\s\r]{1}/g,
 					replacement: '$1'
 				},
 				{
