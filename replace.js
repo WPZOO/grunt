@@ -48,11 +48,11 @@ module.exports = {
 					replacement: ''
 				},
 				{
-					match: /\t\$minified[^]+\( 1 == \$minified \) \? '\.min' : '';[\n\s\r]{2}\$fluidvids = get_theme_mod\( 'fluidvids' \);[\n\s\r]{1}/g,
+					match: /\t\$minified[^]+\( 1 == \$minified \) \? '\.min' : '';[\n\s\r]{2}\$fluidvids = get_theme_mod\( 'fluidvids', true \);[\n\s\r]{1}/g,
 					replacement: ''
 				},
 				{
-					match: /\tif \( 1 == \$fluidvids \) {[\n\s\r]{2}([^]+?)\t}[\n\s\r]{1}/g,
+					match: /\tif \( 1 == \$fluidvids, true \) {[\n\s\r]{2}([^]+?)\t}[\n\s\r]{1}/g,
 					replacement: '$1'
 				},
 				{
