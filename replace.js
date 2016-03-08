@@ -32,8 +32,8 @@ module.exports = {
 			// Define the search and replace patterns
 			patterns: [
 				{
-					match: /PENGU!N Gold/g,
-					replacement: 'PENGU!N'
+					match: /Penguin Gold/g,
+					replacement: 'Penguin'
 				},
 				{
 					match: /penguin-gold/g,
@@ -68,7 +68,7 @@ module.exports = {
 					replacement: ''
 				},
 //				{
-//					match: /\/\*[\n\s\r\*]{5}PENGU!N extras[^]+extras-penguin-gold\.php';[\n\s\r]{2}/,
+//					match: /\/\*[\n\s\r\*]{5}Penguin extras[^]+extras-penguin-gold\.php';[\n\s\r]{2}/,
 //					replacement: ''
 //				}
 			]

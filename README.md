@@ -30,8 +30,8 @@ The `package.json` is where the project variables are defined. An example is:
 ```js
 {
   "name": "penguin-gold",
-  "capitalname": "PENGU!N Gold",
-  "description": "WP Theme PENGU!N Gold",
+  "capitalname": "Penguin Gold",
+  "description": "WP Theme Penguin Gold",
   "author": "Stefan Brechbühl",
   "homepage": "https://wpzoo.ch/",
   "version": "1.0.0",
@@ -60,9 +60,9 @@ The `package.json` is where the project variables are defined. An example is:
     "lite": "../penguin/"
   },
   "theme": {
-    "name": "PENGU!N Gold",
+    "name": "Penguin Gold",
     "uri": "http://wpzoo.ch/themes/penguin/",
-    "description": "PENGU!N is a clean and modern WordPress theme made by WPZOO. Besides the link color the used colors are monochromatic. The post thumbnail will be used as a big header image on single post pages as well as Pages. These theme characteristics make it possible to use PENGU!N for bloggin' as well as a magazin theme.",
+    "description": "Penguin is a clean and modern WordPress theme made by WPZOO. Besides the link color the used colors are monochromatic. The post thumbnail will be used as a big header image on single post pages as well as Pages. These theme characteristics make it possible to use PenguinPenguin for bloggin' as well as a magazin theme.",
     "author": "WPZOO",
     "authoruri": "http://wpzoo.ch",
     "license": "GPL-2.0+",
