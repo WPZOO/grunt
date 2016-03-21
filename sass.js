@@ -28,19 +28,19 @@ module.exports = {
 				ext: '.css'
 			}
 		]
+	},
+	editorstyle: {
+		options: {
+			sourcemap: 'none'
+		},
+		files: [
+			{
+				expand: true,
+				cwd: '<%= pkg.directories.sass %>',
+				src: 'editor-style.scss',
+				dest: '<%= pkg.directories.css %>',
+				ext: '.css'
+			}
+		]
 	}
-//	editorstyle: {
-//		options: {
-//			sourcemap: 'none'
-//		},
-//		files: [
-//			{
-//				expand: true,
-//				cwd: '<%= pkg.directories.sass %>',
-//				src: 'editor-style.scss',
-//				dest: '',
-//				ext: '.css'
-//			}
-//		]
-//	}
 };
