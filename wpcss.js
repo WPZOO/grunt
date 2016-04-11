@@ -5,6 +5,9 @@ module.exports = {
 	},
 	theme: {
 		expand: true,
-		src: ['style.css']
+		src: [
+			'style.css',
+			'editor-style.css'
+		]
 	}
 };
