@@ -48,7 +48,7 @@ module.exports = {
 					replacement: ''
 				},
 				{
-					match: /\t\$minified[^]+\( 1 == \$minified \) \? '\.min' : '';[\n\s\r]{2}\$fluidvids = get_theme_mod\( 'fluidvids', true \);[\n\s\r]{1}/g,
+					match: /\t\$minified[^]+\( 1 === \$minified \) \? '\.min' : '';[\n\s\r]{2}\$fluidvids = get_theme_mod\( 'fluidvids', true \);[\n\s\r]{1}/g,
 					replacement: ''
 				},
 				{
